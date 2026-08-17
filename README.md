@@ -1,4 +1,4 @@
-# Benchmark — Power Manager IoT (stage ICube / em3)
+# Benchmark — Power Manager IoT 
 
 Comparaison de 8 méthodes de décision pour remplacer la machine d'états (FSM)
 du gestionnaire d'énergie d'un nœud IoT utilisé lors de tests de qualification
