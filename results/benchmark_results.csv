@@ -1,0 +1,9 @@
+method,learning_type,autonomy_days,failures,transmissions,dropped_packets,decision_us_avg,memory_B,train_s
+Random Policy,none,7.0,0.0,1674.8,20.4,1.9471263293291758,4,1.6019999975469545e-06
+FSM Baseline,rule-based,7.0,0.0,1643.0,3009.2,0.20930446433273203,6,1.756000017394399e-06
+FSM Optimisée (GA),optimization,7.0,0.0,1944.0,1647.6,0.17762015875832043,6,16.907465175000027
+Logique Floue,rule-based,7.0,0.0,1615.2,3134.2,4.278107876986033,48,1.4849999843136175e-06
+Q-learning tabulaire,reinforcement,7.0,0.0,1643.0,3009.2,2.136001884695458,864,22.240444912999976
+Arbre de décision,supervisé (depuis oracle RL),7.0,0.0,1690.6,2762.8,1.6239820636580284,522,22.616055167000013
+MLP distillé (Q-learning),hybride (RL → supervisé),7.0,0.0,1731.2,2600.4,6.597484365101539,236,23.568026363
+MLP distillé (LLM),supervised (from LLM),7.0,0.0,1459.0,3758.2,10.768787142754693,908,0.6148432669999693
