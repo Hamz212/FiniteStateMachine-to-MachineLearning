@@ -17,7 +17,7 @@ benchmark/
 ├── plot_results.py         Génération de la figure comparative
 ├── decision/
 │   ├── base.py             Interface commune à toutes les méthodes
-│   ├── fsm_baseline.py     FSM originale du papier (référence)
+│   ├── fsm_baseline.py     FSM originale du papier 
 │   ├── fsm_optimized.py    FSM avec seuils optimisés par algorithme génétique
 │   ├── random_policy.py    Politique aléatoire (sanity check)
 │   ├── fuzzy_logic.py      Contrôleur flou (seuils à transitions douces)
