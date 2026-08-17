@@ -42,7 +42,7 @@ pip install numpy matplotlib
 
 ```bash
 cd benchmark
-python3 run_benchmark.py     # ~3 min
+python3 run_benchmark.py     
 python3 plot_results.py
 ```
 
@@ -80,7 +80,8 @@ d'étiquetage à la place du Q-learning :
 3. **Distillation** : un MLP 3→16→8→3 est entraîné sur ces labels par
    descente de gradient (cross-entropie, 120 epochs).
 
-Pour utiliser l'API Claude réelle, exporter la clé avant de lancer le benchmark :
+Pour cette méthode on peut utiliser claude comme LLM:
+Ainsi, pour utiliser l'API Claude réelle, exporter la clé avant de lancer le benchmark :
 
 ```bash
 export ANTHROPIC_API_KEY="sk-ant-..."
